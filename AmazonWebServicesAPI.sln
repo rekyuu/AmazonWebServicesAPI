@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonWebServicesAPI", "AmazonWebServicesAPI\AmazonWebServicesAPI.csproj", "{455B015F-8E87-4DA1-B9C4-43487F8D66B6}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{426D206B-822C-45DB-AB6B-653F6696385B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55933F72-259C-4457-8624-8B0FD4350D3C}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		.gitignore = .gitignore
+		secrets.env = secrets.env
+		secrets.example.env = secrets.example.env
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{455B015F-8E87-4DA1-B9C4-43487F8D66B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455B015F-8E87-4DA1-B9C4-43487F8D66B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455B015F-8E87-4DA1-B9C4-43487F8D66B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455B015F-8E87-4DA1-B9C4-43487F8D66B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426D206B-822C-45DB-AB6B-653F6696385B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426D206B-822C-45DB-AB6B-653F6696385B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426D206B-822C-45DB-AB6B-653F6696385B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426D206B-822C-45DB-AB6B-653F6696385B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7239005E-0166-449D-B38A-9DE40CCCE099}
+	EndGlobalSection
+EndGlobal

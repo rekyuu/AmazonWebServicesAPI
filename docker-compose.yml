@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  app:
+    image: rekyuu/amazon-web-services-api:${APP_VERSION}
+    build:
+      context: .
+      dockerfile: AmazonWebServicesAPI/Dockerfile
+    ports:
+      - "5000:80"
+    env_file:
+      - secrets.env
