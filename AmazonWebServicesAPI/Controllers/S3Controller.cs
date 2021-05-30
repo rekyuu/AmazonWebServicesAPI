@@ -54,6 +54,7 @@ namespace AmazonWebServicesAPI.Controllers
 
         // POST: api/v1/s3/{bucket-name}[?keyPath={keyPath}]
         [HttpPost("{bucketName}")]
+        [DisableRequestSizeLimit]
         public async Task<ActionResult<GetObjectMetadataResponse>> UploadObjectAsync(IFormFile file, string bucketName, string keyPath = "")
         {
             if (!Auth.IsAuthorized(Request)) return Unauthorized();
